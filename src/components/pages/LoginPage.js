@@ -6,15 +6,15 @@ import '../../App.css'
 export default function SignInPage() {
     return (
         <div className="text-center m-5-auto">
-            <h2>Sign in to us</h2>
+            <h2>Ingresa aquí</h2>
             <form action="/home">
                 <p>
-                    <label>Username or email address</label><br/>
+                    <label>Usuario o contraseña</label><br/>
                     <input type="text" name="first_name" required />
                 </p>
                 <p>
-                    <label>Password</label>
-                    <Link to="/forget-password"><label className="right-label">Forget password?</label></Link>
+                    <label>contraseña</label>
+                    <Link to="/forget-password"><label className="right-label">Olvidaste la contraseña?</label></Link>
                     <br/>
                     <input type="password" name="password" required />
                 </p>
@@ -23,8 +23,8 @@ export default function SignInPage() {
                 </p>
             </form>
             <footer>
-                <p>First time? <Link to="/register">Create an account</Link>.</p>
-                <p><Link to="/">Back to Homepage</Link>.</p>
+                <p>¿No tienes cuenta? <Link to="/register">Crear una cuenta</Link>.</p>
+                <p><Link to="/">Volver a la página</Link>.</p>
             </footer>
         </div>
     )
