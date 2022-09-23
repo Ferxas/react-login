@@ -43,9 +43,9 @@ The process to start is simple, just make sure you have [Node js](https://nodejs
 First you need to go to project's main directory which contains package.json file
 
 ```bash
-    git clone [Repository]
+    git clone https://github.com/Ferxas/react-login.git
 
-    cd [Repository-Directory]
+    cd react-login
 
     npm install
 
@@ -53,9 +53,9 @@ First you need to go to project's main directory which contains package.json fil
 ```
 or
 ```bash
-    git clone [Repository]
+    git clone https://github.com/Ferxas/react-login.git
 
-    cd [Repository-Directory]
+    cd react-login
 
     yarn install
 
@@ -70,7 +70,7 @@ or
 Reach out to me at one of the following places!
 
 - Website at <a href="https://izemspot.netlify.com" target="_blank">`izemspot.netlify.com`</a>
-- Gmail <a href="mailto:zmr.ilyas@gmail.com" target="_blank">`zmr.ilyas@gmail.com`</a>
+- Discord: ferxas#3861
 
 
 
